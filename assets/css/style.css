@@ -71,7 +71,7 @@ header {
   padding: 1.7rem 10%;
   height: 6.5rem;
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  box-shadow: 0 1px 4px #000808;
 }
 section {
   min-height: 100vh;
@@ -79,18 +79,18 @@ section {
 }
 .heading {
   font-size: 3.5rem;
-  color: rgb(32, 32, 32);
+  color: #000808;
   font-weight: 800;
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: #008080;
 }
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #000808;
 }
 header .logo i {
   font-size: 2.2rem;
@@ -109,7 +109,7 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #000808;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -117,8 +117,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #008080;
+  border-bottom: 0.2rem solid #008080;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -224,13 +224,12 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  margin-top: 38px;
   color: #002057;
 }
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #008080;
 }
 .home .content p {
   font-size: 2.5rem;
@@ -252,7 +251,7 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
+  background: #008080;
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
@@ -267,7 +266,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: #0e6b6b;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -333,7 +332,7 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: 2rem;
+    margin-top: -12rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -416,7 +415,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
+  background: #008080;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
@@ -431,7 +430,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #0e6b6b;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -463,7 +462,7 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #008080, #03291d);
 }
 .skills h2 {
   color: #fff;
@@ -649,7 +648,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: linear-gradient(to bottom, #062929, #022424);
 }
 .work h2 {
   color: #fff;
@@ -875,7 +874,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
+  background: #008080;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
 }
@@ -890,7 +889,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background: #062929;
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -1009,11 +1008,11 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid #008080;
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
+  color: #008080;
 }
 form .message {
   position: relative;
@@ -1048,13 +1047,13 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
+  background: #008080;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background: #022424;
 }
 .button-area span {
   font-size: 17px;
@@ -1075,7 +1074,7 @@ form .button-area {
 
 @media (max-width: 1300px) {
   .projects_made{
-    margin-top: 34px;
+    margin-top: 200px;
     height:auto;
     width: 100%;
   }
@@ -1106,7 +1105,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: rgb(4, 39, 31);
 }
 .footer .box-container {
   display: flex;
@@ -1228,8 +1227,8 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #008080;
+  color: rgb(213, 212, 218);
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
