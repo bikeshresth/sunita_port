@@ -223,6 +223,7 @@ header .navbar ul li a:hover {
 }
 .home .content h2 {
   font-size: 5rem;
+  margin-top: 38px;
   font-weight: 800;
   color: #002057;
 }
@@ -1074,7 +1075,7 @@ form .button-area {
 
 @media (max-width: 1300px) {
   .projects_made{
-    margin-top: 200px;
+    margin-top: 34px;
     height:auto;
     width: 100%;
   }
