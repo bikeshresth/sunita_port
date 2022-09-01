@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Nisseem Rana Magar";
+            $("#favicon").attr("href", "assets/images/aaa.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Come Back To Nisseem's Portfolio";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
