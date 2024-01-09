@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Sunita Shrestha";
-            $("#favicon").attr("href", "assets/images/aaa.png");
+            $("#favicon").attr("href", "assets/images/sunita.jpg");
         }
         else {
             document.title = "Come Back To Sunita's Portfolio";
