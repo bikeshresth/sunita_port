@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Nisseem Rana Magar";
+            document.title = "Portfolio | Sunita Shrestha";
             $("#favicon").attr("href", "assets/images/aaa.png");
         }
         else {
-            document.title = "Come Back To Nisseem's Portfolio";
+            document.title = "Come Back To Sunita's Portfolio";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Project Management", "Front End Developemt", "PTE/IELTS Instructor"],
+    strings: ["Business Analyst", "Project Management", "Skill Assessment Specialist | Admin Officer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
